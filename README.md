@@ -1,5 +1,5 @@
-# nft-mart
-nft-mart assignment for muffin-tech
+# NFT Mart
+NFT Mart assignment for Muffintech
 
 # features
 
