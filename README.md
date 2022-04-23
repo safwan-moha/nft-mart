@@ -11,10 +11,10 @@ nft-mart assignment for muffin-tech
 
 - sign in page
 - home page
--- list of collections
--- overlay modal for adding new collections
--- this page is public - no need to sign in
+    - list of collections
+    - overlay modal for adding new collections
+    - this page is public - no need to sign in
 - nft page
--- list of nft inside a collections
--- overlay modal for view and buying nft
--- this is private - need to sign in
+    - list of nft inside a collections
+    - overlay modal for view and buying nft
+    - this is private - need to sign in
