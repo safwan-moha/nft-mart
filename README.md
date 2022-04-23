@@ -1,7 +1,7 @@
 # NFT Mart
 NFT Mart assignment for Muffintech
 
-# features
+# Features
 
 - sign in page
     - route to home page
@@ -23,7 +23,7 @@ NFT Mart assignment for Muffintech
 - react-router-dom
 - material-ui
 
-# steps to run dev
+# Steps to run dev
 
 - Clone the repo: https://github.com/safwan-moha/nft-mart
 - npm install
