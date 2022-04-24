@@ -6,6 +6,7 @@ import { ThemeProvider, makeStyles, withStyles } from '@material-ui/styles';
 import { CssBaseline, IconButton } from '@material-ui/core';
 import ClearIcon from '@material-ui/icons/Clear';
 import theme from './portal/theme';
+import { AccessProvider } from "react-access-control"
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
 import Routes from './portal/Routes';
@@ -48,9 +49,11 @@ class App extends React.Component {
                             variantInfo: classes.info
                         }}>
                         <DialogProvider>
-                            <BrowserRouter basename={'/app'}>
-                                <Routes />
-                            </BrowserRouter>
+                            <AccessProvider>
+                                <BrowserRouter basename={'/app'}>
+                                    <Routes />
+                                </BrowserRouter>
+                            </AccessProvider>
                         </DialogProvider>
                     </SnackbarProvider>
                 </ThemeProvider>
